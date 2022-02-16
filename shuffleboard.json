@@ -1,0 +1,75 @@
+{
+  "tabPane": [
+    {
+      "title": "Drivetrain",
+      "autoPopulate": true,
+      "autoPopulatePrefix": "SmartDashboard/",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {}
+      }
+    },
+    {
+      "title": "Intake",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {}
+      }
+    },
+    {
+      "title": "Shooter",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {}
+      }
+    },
+    {
+      "title": "Vision",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {}
+      }
+    },
+    {
+      "title": "Auto",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {}
+      }
+    }
+  ],
+  "windowGeometry": {
+    "x": -6.5,
+    "y": -6.5,
+    "width": 1933.0,
+    "height": 1053.0
+  }
+}
