@@ -28,5 +28,6 @@ public class Constants {
     *   public static final int kRightMotor2Port = 3; 
     * }
     */ 
+    public static double k_EncConvConst = 0.0010475;
 }
 

@@ -13,6 +13,7 @@
 package robot.subsystems;
 
 import robot.commands.*;
+import robot.Constants;
 import com.kauailabs.navx.frc.AHRS;
 import edu.wpi.first.wpilibj.SPI;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
@@ -111,7 +112,7 @@ driveCtrl.setMaxOutput(1.0);
 
     
 }
-    private double k_EncConvConst = 0.0010475;
+    //private double k_EncConvConst = 0.0010475;
 
     @Override
     public void periodic() {
@@ -215,8 +216,8 @@ driveCtrl.setMaxOutput(1.0);
     public int getLeftEncoder()                 { return (int)-leftMotor1.getSelectedSensorPosition(0); }
     public int getRightEncoder()                { return (int)rightMotor1.getSelectedSensorPosition(0); }
 
-    public double getLeftEncoderDist()          { return (getLeftEncoder() *  k_EncConvConst); }
-    public double getRightEncoderDist()         { return (getRightEncoder() * k_EncConvConst); }
+    public double getLeftEncoderDist()          { return (getLeftEncoder() *  Constants.k_EncConvConst); }
+    public double getRightEncoderDist()         { return (getRightEncoder() * Constants.k_EncConvConst); }
     
     public double getAvgEncoderDist()           { return ((getLeftEncoderDist() + getRightEncoderDist()) / 2.0 ); }
     public double getCurrentVel()               { return avgVelocity; }
